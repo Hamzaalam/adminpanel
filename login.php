@@ -39,19 +39,21 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="checkbox">
+            <!-- <div class="checkbox">
               <label>
                 <input type="checkbox" value="remember-me">
                 Remember Password
               </label>
-            </div>
+            </div> -->
           </div>
           <a class="btn btn-primary btn-block" href="blankpage.php">Login</a>
         </form>
-        <div class="text-center">
+
+        <!-- <div class="text-center">
           <a class="d-block small mt-3" href="register.html">Register an Account</a>
           <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
-        </div>
+        </div> -->
+      
       </div>
     </div>
   </div>

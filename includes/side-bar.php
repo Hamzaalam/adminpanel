@@ -28,7 +28,7 @@
       <li class="nav-item">
         <a class="nav-link" href="result.php">
           <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
+          <span>Results</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="register-candidate.php">
@@ -37,7 +37,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="registered-candidate.php">
-        <i class="far fa-address-card"></i>
+        <i class="fas fa-fw fa-table"></i>
           <span>Candidate List</span></a>
       </li>
       <li class="nav-item">
@@ -48,7 +48,7 @@
       <li class="nav-item">
         <a class="nav-link" href="registered-voter.php">
           <i class="fas fa-fw fa-table"></i>
-          <span>Registered Voter</span></a>
+          <span>Voter List</span></a>
       </li>
     </ul>
     
