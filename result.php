@@ -3,6 +3,8 @@ include('includes/header.php');
 include('includes/side-bar.php');
 
 ?>
+ <!-- Page Content -->
+
 
      <!--Bar chart and pie chart-->
 		<div class="row">

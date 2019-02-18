@@ -3,6 +3,8 @@ include('includes/header.php');
 include('includes/side-bar.php');
 
 ?>
+ <!-- Page Content -->
+
     <div class="card mb-3">
       <div class="card-header">Register an Candidates</div>
       <div class="card-body">
