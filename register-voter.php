@@ -4,7 +4,7 @@ include('includes/side-bar.php');
 
 ?>
     <div class="card mb-3">
-      <div class="card-header">Register an Voter</div>
+      <div class="card-header"><i class="far fa-address-card"></i> Register an Voter</div>
       <div class="card-body">
        <form action="" method="POST" class="form-horizontal form-label-left">
 
@@ -69,7 +69,7 @@ include('includes/side-bar.php');
         </div>
         <div class="form-group col-md-6">
             <label for="inputCNIC">CNIC</label>
-            <input type="name" class="form-control" id="inputCNIC" placeholder="4XXXX-XXXXXXX-1">
+            <input type="name" class="form-control" id="inputCNIC" placeholder="XXXXX-XXXXXXX-X">
         </div>
     </div>
 
@@ -102,11 +102,7 @@ include('includes/side-bar.php');
         <option>Gilgit Baltistan</option>
       </select>
     </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
+
  
   </div>
   <div>

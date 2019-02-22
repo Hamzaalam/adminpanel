@@ -6,7 +6,7 @@ include('includes/side-bar.php');
  <!-- Page Content -->
 
     <div class="card mb-3">
-      <div class="card-header">Register an Candidates</div>
+      <div class="card-header"><i class="far fa-address-card"></i> Register an Candidates</div>
       <div class="card-body">
        <form action="" method="POST" class="form-horizontal form-label-left">
 
@@ -71,15 +71,29 @@ include('includes/side-bar.php');
         </div>
         <div class="form-group col-md-6">
             <label for="inputCNIC">CNIC</label>
-            <input type="name" class="form-control" id="inputCNIC" placeholder="4XXXX-XXXXXXX-1">
+            <input type="name" class="form-control" id="inputCNIC" placeholder="XXXXX-XXXXXXX-X">
         </div>
     </div>
 
 <!-- NA & PS CONSTITUENCY-->
+<div class="container">
+
+  <form>
+  <label class="checkbox-inline">
+  NA-CONSTITUENCY <input type="checkbox" value="" id="chkNA" onclick="checkStatusChk(this);">
+  </label>
+  <label class="checkbox-inline">
+  PS-CONSTITUENCY <input type="checkbox" value="" id="chkPS" onclick="checkStatusChk(this);">
+  </label>
+  <label class="checkbox-inline">
+    BOTH <input type="checkbox" value="" id="chkBoth" onclick="checkStatusChk(this);">
+  </label>
+</form>
+</div>
 <div class="form-row">
         <div class="form-group col-md-6">
             <label for="inputNA">NA-CONSTITUENCY</label>
-            <input type="name" class="form-control" id="inputNA" placeholder="NA-XXX">
+            <input type="text" class="form-control" id="inputNA" placeholder="NA-XXX">
         </div>
         <div class="form-group col-md-6">
             <label for="inputPS">PS-CONSTITUENCY</label>
@@ -104,11 +118,7 @@ include('includes/side-bar.php');
         <option>Gilgit Baltistan</option>
       </select>
     </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
+
  
   </div>
   <div>
@@ -123,7 +133,9 @@ include('includes/side-bar.php');
 
 </div>
 <!-- /.container-fluid -->
-  
+
+    <!-- Checkbox JavaScript-->
+      <script src="js/sb-admin-checkbox.js"></script>
 
 <?php
 include('includes/footer.php');

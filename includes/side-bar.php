@@ -25,6 +25,11 @@
           <a class="dropdown-item" href="register-voter.php">Register Voter</a>
           <a class="dropdown-item" href="register-candidate.php">Register Candidate</a>
           <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+          <a class="dropdown-item" href="result.php">Result</a>
+          <a class="dropdown-item" href="user.php">User</a>
+          <a class="dropdown-item" href="ballot-paper.php">Ballot Paper</a>
+          <a class="dropdown-item" href="registered-voter.php">Registered Voter</a>
+          <a class="dropdown-item" href="registered-candidate.php">Registered Candidate</a>
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Other Pages:</h6>
           <a class="dropdown-item" href="404.html">404 Page</a>
@@ -49,12 +54,22 @@
       <li class="nav-item">
         <a class="nav-link" href="register-voter.php">
         <i class="far fa-address-card"></i>
-          <span>Register Voter</span></a>
+          <span>Voter Register</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="registered-voter.php">
           <i class="fas fa-fw fa-table"></i>
           <span>Voter List</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="user.php">
+        <i class="fas fa-user"></i>
+          <span>User</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ballot-paper.php">
+        <i class="fas fa-vote-yea"></i>
+          <span>Ballot Paper</span></a>
       </li>
     </ul>
     

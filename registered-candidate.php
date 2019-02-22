@@ -8,7 +8,7 @@ include('includes/side-bar.php');
 <div class="card mb-3">
           <div class="card-header">
             <i class="fas fa-table"></i>
-            Data Table Example</div>
+            Candidate Data Table</div>
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -53,7 +53,7 @@ include('includes/side-bar.php');
                   <tr>
                     <td>Iqtada</td>
                     <td>Kamal</td>
-                    <td>Kamal Sahab</td>
+                    <td>Mustafa Kamal</td>
                     <td>B-413 Bisma Residency Gulistan-e-Jauhar Karachi</td>
                     <td>23/09/1995</td>
                     <td>23</td>
@@ -69,7 +69,7 @@ include('includes/side-bar.php');
                   <tr>
                    <td>Iqtada</td>
                     <td>Kamal</td>
-                    <td>Kamal Sahab</td>
+                    <td>Mustafa Kamal</td>
                     <td>B-413 Bisma Residency Gulistan-e-Jauhar Karachi</td>
                     <td>23/09/1995</td>
                     <td>23</td>
@@ -85,7 +85,7 @@ include('includes/side-bar.php');
                   <tr>
                    <td>Iqtada</td>
                     <td>Kamal</td>
-                    <td>Kamal Sahab</td>
+                    <td>Mustafa Kamal</td>
                     <td>B-413 Bisma Residency Gulistan-e-Jauhar Karachi</td>
                     <td>23/09/1995</td>
                     <td>23</td>
@@ -101,7 +101,7 @@ include('includes/side-bar.php');
                   <tr>
                    <td>Iqtada</td>
                     <td>Kamal</td>
-                    <td>Kamal Sahab</td>
+                    <td>Mustafa Kamal</td>
                     <td>B-413 Bisma Residency Gulistan-e-Jauhar Karachi</td>
                     <td>23/09/1995</td>
                     <td>23</td>
